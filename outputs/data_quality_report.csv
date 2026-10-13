@@ -1,0 +1,12 @@
+rule_name,rows_affected,rows_removed,rows_flagged,example
+null_amount,0,0,0,
+negative_amount,422,0,422,-375.34
+zero_amount,12,0,12,HOWARD BROWN HEALTH CENTER
+future_date,0,0,0,
+unparseable_date,116619,0,116619,
+null_vendor,0,0,0,
+null_department,287348,0,287348,
+duplicate_transaction,25452,0,25452,K.L.E.O. COMMUNITY FAMILY LIFE CENTER
+likely_duplicate_invoice,13761,0,13761,TRANSUNION RISK & ALTERNATIVE DATA SOLUTIONS INC
+outlier_amount,4722,0,4722,"99th pct threshold: $4,479,146.42"
+maverick_spend_flagged,232150,0,232150,DV-prefixed or missing contract number

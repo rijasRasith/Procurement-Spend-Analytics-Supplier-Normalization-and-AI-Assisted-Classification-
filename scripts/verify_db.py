@@ -1,0 +1,20 @@
+import sqlite3
+conn = sqlite3.connect('processed_data/spend_analytics.db')
+tables = conn.execute("SELECT name FROM sqlite_master WHERE type='table'").fetchall()
+print('Tables:', [t[0] for t in tables])
+print('raw_payments:', conn.execute('SELECT COUNT(*) FROM raw_payments').fetchone()[0])
+print('cleaned_payments:', conn.execute('SELECT COUNT(*) FROM cleaned_payments').fetchone()[0])
+print('supplier_master:', conn.execute('SELECT COUNT(*) FROM supplier_master').fetchone()[0])
+print('dq_report:', conn.execute('SELECT COUNT(*) FROM data_quality_report').fetchone()[0])
+print()
+top = conn.execute('SELECT canonical_name, ROUND(total_spend,0) FROM supplier_master ORDER BY total_spend DESC LIMIT 5').fetchall()
+print('Top 5 suppliers by spend:')
+for s in top:
+    print(f'  {s[0]}: ${s[1]:,.0f}')
+print()
+maverick = conn.execute('SELECT is_maverick, COUNT(*), ROUND(SUM(amount),0) FROM cleaned_payments WHERE amount > 0 GROUP BY is_maverick').fetchall()
+print('Maverick breakdown:')
+for m in maverick:
+    print(f'  is_maverick={m[0]}: {m[1]:,} rows, ${m[2]:,.0f}')
+conn.close()
+print('\nDB verification complete.')

@@ -1,0 +1,10 @@
+{
+  "total_rows": "472616",
+  "columns": "['VOUCHER NUMBER', 'AMOUNT', 'CHECK DATE', 'DEPARTMENT NAME', 'CONTRACT NUMBER', 'VENDOR NAME']",
+  "missing_per_column": "{'VOUCHER NUMBER': 116619, 'AMOUNT': 0, 'CHECK DATE': 0, 'DEPARTMENT NAME': 287348, 'CONTRACT NUMBER': 0, 'VENDOR NAME': 0}",
+  "unique_vendors": "76481",
+  "unique_departments": "63",
+  "amount_stats": "{'count': 472616, 'unique': 246429, 'top': '50.00', 'freq': 15522}",
+  "date_range_raw": "01/02/2024 to 2024",
+  "currency": "USD (all amounts in USD per dataset documentation)"
+}

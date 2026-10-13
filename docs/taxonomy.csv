@@ -1,0 +1,45 @@
+l1,l2,l3,definition
+Goods,IT Hardware,Computers and Laptops,Desktop computers, laptops, workstations, and all-in-one units
+Goods,IT Hardware,Servers and Storage,Server hardware, NAS/SAN storage, data center infrastructure
+Goods,IT Hardware,Networking Equipment,Routers, switches, firewalls, cabling, and wireless access points
+Goods,IT Hardware,Peripherals and Accessories,Monitors, keyboards, mice, printers, scanners, and USB accessories
+Goods,Office Supplies,Stationery and Paper,Paper, pens, notebooks, folders, envelopes, and general office supplies
+Goods,Office Supplies,Furniture and Fixtures,Desks, chairs, shelving, filing cabinets, and office furniture
+Goods,Fleet and Vehicles,Vehicles,Cars, trucks, vans, buses, and emergency vehicles
+Goods,Fleet and Vehicles,Parts and Accessories,Vehicle parts, tires, oils, and maintenance consumables
+Goods,Public Safety Equipment,Uniforms and Protective Gear,Police, fire, and other uniforms, body armor, PPE
+Goods,Public Safety Equipment,Weapons and Tactical Equipment,Firearms, ammunition, and law enforcement tactical gear
+Goods,Facilities and Maintenance,Cleaning Supplies,Janitorial supplies, disinfectants, and cleaning materials
+Goods,Facilities and Maintenance,Building Materials,Construction materials, tools, paint, and hardware
+Goods,Medical and Healthcare Supplies,Pharmaceuticals,Prescription drugs, vaccines, and medication
+Goods,Medical and Healthcare Supplies,Medical Devices and Equipment,Medical devices, diagnostic equipment, and health instruments
+Goods,Technology and Software,Software Licenses,Software, SaaS subscriptions, and licensed applications
+Goods,Technology and Software,Telecommunications Equipment,Phones, radios, communication devices
+Services,IT Services,IT Consulting and Implementation,Technology consulting, system integration, and project management
+Services,IT Services,Managed IT Services,Outsourced IT operations, helpdesk, and infrastructure management
+Services,IT Services,Software Development,Custom application development, web and mobile development
+Services,Professional Services,Legal Services,Legal counsel, litigation support, and compliance advisory
+Services,Professional Services,Financial and Accounting,Audit, accounting, tax, and financial advisory services
+Services,Professional Services,Management Consulting,Strategy, operations, and organizational consulting
+Services,Facilities Services,Building Maintenance,HVAC, electrical, plumbing, and general building upkeep
+Services,Facilities Services,Cleaning and Janitorial,Cleaning contracts, waste removal, and pest control
+Services,Facilities Services,Security Services,Physical security guards, access control monitoring
+Services,Public Safety Services,Emergency Services Support,Ambulance, fire response, and emergency management support
+Services,Public Safety Services,Detention and Corrections Services,Incarceration, detention facility management
+Services,Healthcare Services,Medical and Clinical Services,Physician services, nursing, and clinical care
+Services,Healthcare Services,Mental Health and Social Services,Mental health programs, social worker services
+Services,Transportation and Logistics,Freight and Shipping,Parcel delivery, freight, and courier services
+Services,Transportation and Logistics,Transit Operations,Public transit, paratransit, and commuter services
+Services,Utilities,Electricity,Electric utility payments
+Services,Utilities,Water and Sewer,Water supply, sewage, and water treatment payments
+Services,Utilities,Natural Gas,Gas utility payments
+Services,Utilities,Telecommunications Services,Phone, internet, and data communication services
+Services,Construction and Engineering,Construction Contracts,Capital construction projects and infrastructure works
+Services,Construction and Engineering,Engineering and Architecture,Design, engineering studies, and architecture services
+Services,Education and Training,Training and Development,Staff training, certification programs, and workshops
+Services,Education and Training,Academic and Research Services,Universities, research contracts, and academic partnerships
+Services,Marketing and Communications,Advertising and Media,Advertising, media buys, and public campaigns
+Services,Marketing and Communications,Printing and Publications,Printing, binding, and document production
+Services,Financial Services,Debt Service,Bond payments, interest, and debt repayment
+Services,Financial Services,Insurance,Property, liability, health, and other insurance premiums
+Services,Other Services,Miscellaneous Services,Services not fitting other categories; requires review
